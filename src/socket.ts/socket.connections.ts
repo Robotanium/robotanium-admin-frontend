@@ -4,7 +4,7 @@ import { tankSteeringInterface } from "../Models";
 
 const mode: string = "dev";
 
-const url = mode === "prod" ? "https://rawbotz.com" : "https://robotanium-admin-app-x22js.ondigitalocean.app";
+const url = mode === "prod" ? "https://rawbotz.com" : "https://rawbotz.com";
 const socketUrl = mode === "prod" ? "https://rawbotz.com" : "https://rawbotz.com";
 
 export class Ws {
