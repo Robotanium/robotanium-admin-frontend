@@ -23,7 +23,7 @@ export class Ws {
 
   connect = (token: string): void => {
     console.log('should connect now', "htt")
-    this.socket = io(socketUrl,{path:"/robotanium-admin-backend2/socket.io"});
+    this.socket = io(socketUrl);
   };
 
   connectToBot = (token:string, botId: string) => {
