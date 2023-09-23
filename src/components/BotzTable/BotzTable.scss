@@ -1,0 +1,18 @@
+.tableCss {
+  table {
+    thead {
+      text-align: center;
+      tbody {
+        tr {
+          border-spacing: 0;
+          text-align: center;
+          td {
+            padding: 0px !important;
+            text-align: 'center' !important;
+          }
+        }
+      }
+    }
+  }
+}
+
